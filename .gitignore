@@ -39,3 +39,28 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# --- 추가 추천 항목 ---
+
+# VS Code 관련 (개별 설정 파일 제외)
+.vscode/*
+!.vscode/extensions.json  # 아까 말씀드린 권장 확장 프로그램 목록은 포함
+!.vscode/launch.json      # 디버깅 설정이 필요하다면 포함
+.history/                 # Local History 확장 프로그램 사용 시 생성됨
+
+# Windows 시스템 파일
+Thumbs.db
+desktop.ini
+
+# API 키 및 환경 변수 
+.env
+.env.development
+.env.production
+.env.local
+
+# 로그 파일
+*.log
+
+# 빌드 및 캐시
+.cache/
+.npm/
